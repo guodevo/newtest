@@ -31,3 +31,13 @@ function savechangewithkey(event){
     }
 
 }
+
+var all = document.getElementsByClassName('all')
+var inputs = document.getElementsByTagName('input')
+
+for(var i = 0; i < inputs.length; i++){
+    allitems = inputs[i].value;
+    ITEM = String(allitems)
+    alert('You have: ',ITEM)
+    
+}
